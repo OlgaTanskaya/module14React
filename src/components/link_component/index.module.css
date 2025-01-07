@@ -1,0 +1,14 @@
+.links {
+  background: var(--main-bg);
+  height: 68px;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid #1c1c21;
+}
+.links a {
+  height: min-content;
+}

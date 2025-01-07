@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.comment_card {
+  min-height: 300px;
+  min-width: 300px;
+  border: 1px solid var(--black-text);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: space-between;
+  background-color: var(--gray-bg);
+  color: var(--text-color);
+  border-radius: 10px;
+  padding: clamp(10px, 1.8vw, 40px);
+  flex: 1 1 33%;
+}
+.text {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.links {
+}
+.stars {
+  display: flex;
+  gap: 4px;
+}
+.name {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.location {
+  color: #62646c;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+@media (max-width: 1024px) {
+}

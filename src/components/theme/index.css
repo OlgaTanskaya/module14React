@@ -1,0 +1,12 @@
+.toggle-btn-wrapper {
+}
+.toggle-btn-wrapper input {
+  display: none;
+}
+.toggle-btn {
+  width: 110px;
+
+  background: #1c1c21;
+  color: var(--light-bg);
+  border-radius: 10px;
+}

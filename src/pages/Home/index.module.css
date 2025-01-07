@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  margin-bottom: clamp(100px, 11.25vw, 200px);
+}
+.home_container {
+  background-color: var(--main-bg);
+  color: var(--light-bg);
+  width: 100%;
+}
+
+.btn_home {
+  background: #4a2ced;
+  border-radius: 40px;
+  width: 130px;
+  height: 66px;
+}
+
+.home_lets {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 58px;
+  text-transform: uppercase;
+  color: var(--light-bg) FFF;
+  padding: 70px 0 0 0;
+}
+
+.home_title_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.home_h3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #62646c;
+  padding: 70px 0 0 0;
+}
+
+.home_h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #e4e4e6;
+}
+
+.img_vector {
+  padding: 0 100px 0 0;
+}
+
+.ul_home {
+  display: flex;
+  list-style: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #d6d0fb;
+  padding: 0 0 0 20px;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid var(--main-bg);
+  height: 78px;
+  background: var(--main-bg);
+}
+
+.img_faces {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1024px) {
+  .img_vector {
+    display: none;
+  }
+}
+@media (max-width: 1440px) {
+  .home_container {
+    width: 100%;
+  }
+  .btn_home {
+    width: 104px;
+    height: 56px;
+  }
+  .home_lets {
+    font-size: 48px;
+    padding: 40px 0;
+  }
+
+  .home_h3 {
+    font-size: 18px;
+    padding: 50px 0 0 0;
+  }
+  .home_h1 {
+    font-size: 60px;
+    padding: 0;
+  }
+  .img_vector {
+    width: 22%;
+    padding: 0 60px 0 0;
+  }
+  .ul_home {
+    font-size: 14px;
+    padding: 0;
+    gap: 8px;
+    height: 62px;
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Emily Johnson",
+    "text": "Damien's photography ",
+    "src": "/src/assets/portfolio_test.png"
+  },
+  {
+    "id": 2,
+    "name": "Emily Johnson",
+    "text": "Damien's photography ",
+    "src": "/src/assets/portfolio_test.png"
+  },
+  {
+    "id": 3,
+    "name": "Emily Johnson",
+    "text": "Damien's photography ",
+    "src": "/src/assets/portfolio_test.png"
+  },
+  {
+    "id": 4,
+    "name": "Emily Johnson",
+    "text": "Damien's photography ",
+    "src": "/src/assets/portfolio_test.png"
+  }
+]

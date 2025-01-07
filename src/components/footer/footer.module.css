@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer_inner {
+  display: flex;
+  flex-direction: column;
+}
+.footer_block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer_img_left {
+  border-right: 1px solid var(--main-bg);
+  padding: 100px 0;
+}
+
+.footer_img_right {
+  border-left: 1px solid var(--main-bg);
+  padding: 100px 0;
+}
+
+.btn_footer {
+  background: #4a2ced;
+  border-radius: 40px;
+  width: 130px;
+  height: 66px;
+}
+
+.li_footer {
+  display: flex;
+  list-style: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #d6d0fb;
+  padding: 0 0 0 20px;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid var(--main-bg);
+  height: 78px;
+  background: var(--main-bg);
+}
+
+h5 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #797c86;
+  padding: 0 0 40px 0;
+}
+
+.footer_block_one {
+  padding: 100px 80px 100px 0;
+  border-right: 1px solid #1c1c21;
+}
+.ul_home {
+  display: flex;
+  list-style: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #d6d0fb;
+  padding: 0 0 0 20px;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid var(--main-bg);
+  height: 78px;
+  background: var(--main-bg);
+}
+.footer_block_let {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 58px;
+  text-transform: uppercase;
+  color: var(--light-bg) FFF;
+}
+
+h6 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #797c86;
+  padding: 0 0 10px 0;
+}
+
+.footer_block_center {
+  padding: 100px 0 0 0;
+}
+
+.li_footer_block {
+  list-style: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--text-color);
+  line-height: 1.8;
+}
+
+.li_footer_end {
+  border-bottom: 1px solid #1c1c21;
+}
+.end_footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #797c86;
+  border-top: 1px solid #1c1c21;
+}
+
+.footer_img_daimen {
+  max-width: clamp(500px, 66vw, 1062px);
+  margin-left: auto;
+  padding: clamp(100px, 11.25vw, 200px) 0 clamp(50px, 5.25vw, 100px) 0;
+}
+.footer_content {
+  width: 100%;
+  display: flex;
+}
+.footer_center {
+  gap: 30px;
+  display: flex;
+  padding: 0 30px;
+}
+
+@media (max-width: 1440px) {
+  .ul_home {
+    font-size: 14px;
+    padding: 0;
+    gap: 8px;
+    height: 62px;
+  }
+  .footer_img_left {
+    margin-left: -70px;
+  }
+  .footer_img_right {
+    margin-right: -70px;
+  }
+  .btn_footer {
+    width: 104px;
+    height: 56px;
+  }
+  .li_footer {
+    font-size: 14px;
+    padding: 0;
+    height: 62px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  .footer_block_one {
+    padding: 30px 50px 30px 0;
+    border-right: 1px solid #1c1c21;
+  }
+  .footer_block_let {
+    font-size: 48px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  .footer_block_center {
+    padding: 30px 0 0 0;
+  }
+  .li_footer_block {
+    font-size: 14px;
+  }
+  .end_footer {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  .footer_img_left,
+  .footer_img_right {
+    display: none;
+  }
+  .footer_content {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .footer_center {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .footer_block_center {
+    padding-right: 50px;
+    flex: 1 1 50%;
+  }
+  .end_footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}

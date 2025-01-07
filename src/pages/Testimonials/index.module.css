@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Testimonials_container {
+  background-color: var(--main-bg);
+  color: var(--light-bg);
+
+  width: 100%;
+}
+
+h3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #797c86;
+}
+
+h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: clamp(32px, 3vw, 58px) !important;
+  text-transform: uppercase;
+  color: var(--light-bg) FFF;
+  padding: 0 0 20px 0;
+}
+
+.Testimonials_title_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.Testimonials_title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #62646c;
+}
+
+h6 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 150%;
+  color: #cacace;
+  padding: 10px 0 0 0;
+}
+
+.Testimonials_title_btn {
+  width: 245px;
+  height: 59px;
+}
+
+.Testimonials_title_right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Testimonials_title_img {
+  padding: 0 30px 0 0;
+}
+
+.Testimonials_svg {
+  border-top: 1px solid #1c1c21;
+  padding: 60px 0 0 0;
+}
+.comment_cotainer {
+  background-color: var(--main-bg);
+  color: var(--light-bg);
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.swiper_buttons {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #1c1c21;
+  border-radius: 100px;
+}
+.swiper_button {
+  background-color: #1c1c21;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-image-source: linear-gradient(
+    180deg,
+    #2f2f37 27.85%,
+    rgba(47, 47, 55, 0) 100%
+  );
+}
+.swiper_button:last-child {
+  transform: rotate(180deg);
+}

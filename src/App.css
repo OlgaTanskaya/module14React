@@ -1,0 +1,12 @@
+@import url("./var.css");
+
+.toggle-btn-wrapper:has(input[type="checkbox"][id="light"]:checked) ~ .content {
+  --main-bg: var(--dark-bg);
+  --text-color: var(--white-text);
+  --gray-bg: var(--gray-color);
+}
+.toggle-btn-wrapper:has(input[type="checkbox"][id="dark"]:checked) ~ .content {
+  --main-bg: var(--light-bg);
+  --text-color: var(--black-text);
+  --gray-bg: var(--light-bg);
+}
